@@ -2,6 +2,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  border-style: 2px line mediumseagreen;
+  width: 500px;
 }
 
 .status-bar {
@@ -10,6 +12,7 @@ body {
 }
 .status-bar__column {
   width: 33%;
+  margin-top: 0px;
 }
 
 .status-bar__column:first-child span {
@@ -28,5 +31,5 @@ body {
 }
 
 .status-bar__column .fa-battery-three-quarters {
-  margin: 0px 5px;
+  margin: 0px 5 px;
 }
