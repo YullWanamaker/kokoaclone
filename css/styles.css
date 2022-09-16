@@ -2,10 +2,9 @@
 @import "reset.css";
 @import "status-bar.css ";
 @import "variables.css";
-/* components */
+@import "components/nav-bar.css";
 @import "components/status-bar.css";
-/* screens */
-
+@import "components/screen-header.css";
 @import "screens/login.css";
 
 body {
