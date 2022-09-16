@@ -210,6 +210,18 @@ main {
   margin: 1px 0px 5px 0px;
 }
 
+.textss {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.3;
+  margin: 1px 0px 5px 0px;
+}
+
+.textbb {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 7px 0px 5px 0px;
+}
 .textb {
   font-size: 14px;
   font-weight: 600;
@@ -248,8 +260,36 @@ main {
 }
 
 .playbar {
-  margin: 40px 20px;
+  margin: 100px 30px 50px 30px;
+  width: 250px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.935);
+}
+
+.graybox {
+  margin: 10px 0px;
+  height: 60px;
+  width: 300px;
+  display: flex;
+  border-radius: 30px;
+  background-color: rgba(231, 231, 231, 0.935);
+}
+
+.text_box {
+  margin-top: 5px;
+  margin-left: 30px;
+  width: 140px;
+}
+.songtextt {
+  display: flex;
+  align-items: center;
+}
+
+.iconset {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
