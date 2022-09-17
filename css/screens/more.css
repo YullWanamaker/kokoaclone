@@ -38,3 +38,18 @@
   font-size: 32px;
   color: white;
 }
+
+.nav__notificationfor {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 120px;
+  bottom: 25px;
+}

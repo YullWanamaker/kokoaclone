@@ -98,7 +98,7 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
-.nav__notificationthree {
+.nav__notificationtwo {
   background-color: tomato;
   width: 6px;
   height: 6px;
@@ -109,6 +109,6 @@
   color: white;
   font-weight: 600;
   position: absolute;
-  left: 70px;
+  left: 120px;
   bottom: 25px;
 }
