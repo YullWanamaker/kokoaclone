@@ -53,3 +53,26 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__text {
+  position: relative;
+}
+
+.homeworkone {
+  background-color: rgb(255, 255, 255);
+  width: 17px;
+  height: 17px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  right: -30px;
+  font-weight: 10;
+  position: absolute;
+  bottom: -3px;
+  border-style: solid;
+  border-color: tomato;
+  border-width: 2px;
+  color: red;
+}

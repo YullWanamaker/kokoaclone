@@ -15,3 +15,18 @@
   margin-left: 25px;
   position: relative;
 }
+
+.nav__notificationfor {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  color: white;
+  right: -120px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 25px;
+}
