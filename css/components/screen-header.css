@@ -9,7 +9,9 @@
 .screen-header__title {
   font-size: 32px;
   font-weight: 600;
+  position: relative;
 }
 .screen-header__icons span {
   margin-left: 25px;
+  position: relative;
 }
