@@ -98,17 +98,38 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
-.nav__notificationtwo {
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
+
+.nav__notificationfive {
   background-color: tomato;
   width: 6px;
   height: 6px;
   border-radius: 15px;
   display: flex;
-  justify-content: ;
+  justify-content: center;
   align-items: center;
   color: white;
   font-weight: 600;
   position: absolute;
-  left: 120px;
-  bottom: 25px;
+  left: 70px;
+  bottom: 20px;
 }

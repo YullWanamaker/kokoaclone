@@ -53,3 +53,8 @@
   left: 120px;
   bottom: 25px;
 }
+
+.icon {
+  color: black;
+  opacity: 0.5;
+}
